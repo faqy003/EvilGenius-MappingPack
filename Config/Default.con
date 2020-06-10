@@ -1,0 +1,333 @@
+# Default console shortcuts for Evil Genius
+
+cutscenes_enable 0
+AttractMode_IdleSecs 120
+AttractMode_VideoName Trailer.md
+Message_StickinessDefault 5
+Message_StickinessPriority 10
+
+Message_UnreadColour   255,230,230,0
+Glossary_ColourNew     255,230,230,0
+Message_ReadColour     255,90,30,15
+Glossary_ColourVisited 255,90,30,15
+Message_RolloverColour 255,255,255,255
+Glossary_ColourActive  255,255,255,255
+
+DefineShortcut FastForward
+DefaultKey Shift Pad +
+Category Debug
+{
+	Speed 10
+}
+
+DefineShortcut Play
+DefaultKey Shift Pad -
+Category Debug
+{
+	Speed 1
+}
+
+DefineShortcut GodMode
+DefaultKey Shift G
+Category Debug
+{
+	giveall
+	df_buildinstant 1
+	df_buildinstantobjects 1
+	df_power 0
+}
+
+DefineShortcut MortalMode
+DefaultKey Control Alt G
+Category Debug
+{
+	df_buildinstant 0
+	df_buildinstantobjects 0
+	df_power 1
+}
+
+DefineShortcut ResetAvailableEntities
+DefaultKey Control Shift E
+Category Debug
+{
+	df_leveldesign 0
+	df_buildinstant 0
+	df_buildinstantobjects 0
+	df_cameraconstraints 1
+	takeall
+	give 1000
+	give 1001
+	give 1002
+	give 1003
+	give 12008
+	give 12011
+	give 12034
+  give 13002
+  give 13005
+  give 13006
+  give 13008
+  give 13009
+  give 13020
+  give 13050
+  give 13106
+  give 13141
+  give 13156
+  give 17101
+  give 17200
+  give 17204
+  give 17206
+  give 507
+}
+
+DefineShortcut GiveAllObjects
+DefaultKey Control Shift I
+Category Debug
+{
+	takeall
+	give 1000
+	give 1001
+	give 1002
+	give 1003
+	give 1006
+	give 1007
+	give 1008
+	give 1009
+	give 1010
+	give 1011
+	give 1012
+	give 1015
+	give 1017
+	give 1018
+	give 1019
+	give 1020
+	give 1021
+	give 12008
+	give 12011
+	give 12014
+	give 12018
+	give 12025
+	give 12028
+	give 12029
+	give 13000
+	give 13001
+	give 13002
+	give 13003
+	give 13004
+	give 13005
+	give 13006
+	give 13007
+	give 13008
+	give 13009
+	give 13010
+	give 13011
+	give 13012
+	give 13016
+	give 13017
+	give 13018
+	give 13019
+	give 13020
+	give 13021
+	give 13022
+	give 13023
+	give 13024
+	give 13025
+	give 13026
+	give 13027
+	give 13028
+	give 13029
+	give 13030
+	give 13031
+	give 13032
+	give 13033
+	give 13034
+	give 13035
+	give 13036
+	give 13037
+	give 13038
+	give 13039
+	give 13040
+	give 13041
+	give 13042
+	give 13043
+	give 13044
+	give 13045
+	give 13046
+	give 13048
+	give 13049
+	give 13050
+	give 13051
+	give 13052
+	give 13053
+	give 13054
+	give 13055
+	give 13056
+	give 13057
+	give 13058
+	give 13059
+	give 13060
+	give 13061
+	give 13062
+	give 13063
+	give 13064
+	give 13065
+	give 13066
+	give 13067
+	give 13068
+	give 13069
+	give 13070
+	give 13071
+	give 13072
+	give 13073
+	give 13074
+	give 13075
+	give 13076
+	give 13077
+	give 13078
+	give 13079
+	give 13080
+	give 13081
+	give 13082
+	give 13083
+	give 13084
+	give 13085
+	give 13086
+	give 13087
+	give 13088
+	give 13089
+	give 13090
+	give 13091
+	give 13092
+	give 13093
+	give 13094
+	give 13095
+	give 13096
+	give 13097
+	give 13098
+	give 13099
+	give 13100
+	give 13101
+	give 13102
+	give 13103
+	give 13104
+	give 13105
+	give 13106
+	give 13107
+	give 13108
+	give 13109
+	give 13110
+	give 13111
+	give 13112
+	give 13113
+	give 13114
+	give 13115
+	give 13116
+	give 13117
+	give 13118
+	give 13119
+	give 13120
+	give 13121
+	give 13122
+	give 13123
+	give 13124
+	give 13125
+	give 13126
+	give 13127
+	give 13128
+	give 13129
+	give 13130
+	give 13131
+	give 17100
+	give 17101
+	give 17102
+	give 17103
+	give 17104
+	give 17200
+	give 17201
+	give 17203
+	give 17204
+	give 17205
+	give 17206
+	give 17207
+	give 17208
+	give 17209
+	give 17210
+	give 17212
+	give 17213
+	give 17214
+	give 17215
+	give 17216
+	give 17217
+	give 17218
+	give 17219
+	give 17220
+	give 17221
+	give 17224
+	give 17225
+	give 17228
+	give 17229
+	give 17230
+	give 17231
+	give 17232
+	give 17233
+	give 17234
+	give 17235
+	give 17400
+	give 17401
+}
+
+DefineShortcut LevelDesign
+DefaultKey Control Shift P
+Category Debug
+{
+	takeall
+	give 1112
+	give 1113
+	give 1114
+	give 20007
+	give 28428
+	give 28427
+	give 21002
+	give 21004
+	give 21005
+	give 21006
+	give 21007
+	give 21008
+	give 21010
+	give 21011
+	give 20103
+	give 20112
+	give 20113
+	give 20114
+	give 20115
+	give 20116
+	give 20117
+	give 20118
+	give 20119
+	give 1100
+	give 1101
+	give 1102
+	give 1103
+	give 1104
+	give 1105
+	give 1106
+	give 21012
+	give 21013
+	give 12023
+	give 12006
+	give 12019
+	give 12017
+	give 12020
+	give 12030
+	give 12031
+	give 12032
+	give 12035
+	give 12036
+	give 12037
+	df_leveldesign 1
+	df_buildinstant 1
+	df_buildinstantobjects 1
+	df_cameraconstraints 0
+	
+}
+
+ImportShortcuts autoexec.con

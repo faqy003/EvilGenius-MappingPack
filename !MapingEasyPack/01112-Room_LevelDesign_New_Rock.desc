@@ -1,0 +1,11 @@
+ObjType=Room
+ObjName=NewROCK
+TextDescription=ROCK
+-----
+Tileset=NewRock
+RoomType=ROCK
+UnitCost=0
+ReverbMin=Inside
+ReverbMax=Inside
+Mixer=Inside_Base
+-----

@@ -1,0 +1,11 @@
+ObjType=Room
+ObjName=DirtA
+TextDescription=DirtA
+-----
+RoomType=Outdoors
+Tileset=DirtA
+UnitCost=0
+ReverbMin=Outside
+ReverbMax=Outside
+Mixer=Outside_Base
+-----

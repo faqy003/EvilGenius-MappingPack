@@ -1,0 +1,10 @@
+ObjType=Scenery
+ObjName=JUNGLE_FLOOR_MINED_1X1
+Filename=Hotel_UnminedHotel_A.GR2
+TextDescription=JUNGLE_FLOOR_MINED_1X1
+Lighting=Outdoor
+---
+CanBeReflected=false
+---
+BlocksVision
+------

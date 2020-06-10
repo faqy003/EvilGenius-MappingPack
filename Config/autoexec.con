@@ -1,0 +1,506 @@
+# Run these commands when game runs
+# Note that some variables are initialised after this (e.g. Speed)
+# probably someone will fix that eventually
+CreditScrollSpeed 150
+
+GloatComboBonus 150
+GloatComboEscapeChance 10
+GloatComboTimeout 2
+
+Repair_HealthIncrease 25
+Repair_MinSmartsPercent 20
+Repair_SmartsDrain 5
+
+Research_CashIncentive 0 1000
+Research_CashIncentive 1 2000
+Research_CashIncentive 2 4000
+Research_CashIncentive 3 8000
+Research_CashIncentive 4 16000
+Research_CashIncentive 5 32000
+Research_CashIncentive 6 64000
+
+MessageFrequencyInvalidRoom 240
+MessageFrequencyOutOfCash 180
+MessageFrequencyUndeliverableCash 45
+
+Message_StickinessDefault 8
+Message_StickinessPriority 13
+Message_StickinessSummary 10
+
+DefineShortcut AllAgents
+Category Debug
+{
+	Add 1 700
+	Add 1 701
+	Add 1 702
+	Add 1 703
+	Add 1 704
+	Add 1 705
+	Add 1 706
+	Add 1 707
+	Add 1 708
+	Add 1 709
+	Add 1 710
+	Add 1 711
+	Add 1 712
+	Add 1 713
+	Add 1 714
+	Add 1 715
+	Add 1 716
+	Add 1 717
+	Add 1 718
+	Add 1 719
+	Add 1 720
+	Add 1 721
+	Add 1 722
+	Add 1 723
+	Add 1 724
+	Add 1 725
+	Add 1 726
+	Add 1 727
+	Add 1 728
+	Add 1 729
+	Add 1 730
+	Add 1 731
+	Add 1 732
+	Add 1 733
+	Add 1 734
+	Add 1 735
+	Add 1 736
+	Add 1 737
+	Add 1 738
+	Add 1 739
+	Add 1 740
+	Add 1 741
+	Add 1 742
+	Add 1 743
+	Add 1 744
+	Add 1 745
+	Add 1 746
+	Add 1 747
+	Add 1 748
+	Add 1 749
+	Add 1 750
+	Add 1 750
+	Add 1 751
+	Add 1 752
+	Add 1 753
+	Add 1 754
+	Add 1 755
+	Add 1 756
+	Add 1 757
+	Add 1 758
+	Add 1 759
+	Add 1 760
+	Add 1 761
+	Add 1 762
+	Add 1 763
+	Add 1 764
+	Add 1 765
+	Add 1 766
+	Add 1 767
+	Add 1 768
+	Add 1 769
+	Add 1 770
+	Add 1 771
+	Add 1 772
+	Add 1 773
+	Add 1 774
+	Add 1 775
+	Add 1 776
+	Add 1 777
+	Add 1 778
+	Add 1 779
+	Add 1 780
+	Add 1 781
+	Add 1 782
+	Add 1 783
+	Add 1 784
+	Add 1 785
+	Add 1 786
+	Add 1 787
+	Add 1 788
+	Add 1 789
+	Add 1 790
+	Add 1 791
+	Add 1 792
+	Add 1 793
+	Add 1 794
+	Add 1 795
+	Add 1 796
+	Add 1 797
+	Add 1 798
+	Add 1 799
+	Add 1 800
+	Add 1 801
+	Add 1 802
+	Add 1 803
+	Add 1 804
+	Add 1 805
+	Add 1 806
+	Add 1 807
+	Add 1 808
+	Add 1 809
+	Add 1 810
+	Add 1 811
+	Add 1 812
+	Add 1 813
+	Add 1 814
+	Add 1 815
+	Add 1 816
+	Add 1 817
+	Add 1 818
+	Add 1 819
+	Add 1 820
+	Add 1 821
+	Add 1 822
+	Add 1 823
+	Add 1 824
+	Add 1 825
+	Add 1 826
+	Add 1 827
+	Add 1 828
+	Add 1 829
+	Add 1 830
+	Add 1 831
+	Add 1 832
+	Add 1 833
+	Add 1 834
+	Add 1 835
+	Add 1 836
+	Add 1 837
+	Add 1 838
+	Add 1 839
+	Add 1 840
+	Add 1 841
+	Add 1 842
+	Add 1 843
+	Add 1 844
+	Add 1 845
+	Add 1 846
+	Add 1 847
+	Add 1 848
+	Add 1 849
+	Add 1 850
+	Add 1 850
+	Add 1 851
+	Add 1 852
+	Add 1 853
+	Add 1 854
+	Add 1 855
+	Add 1 856
+	Add 1 857
+	Add 1 858
+	Add 1 859
+	Add 1 860
+	Add 1 861
+	Add 1 862
+	Add 1 863
+	Add 1 864
+	Add 1 865
+	Add 1 866
+	Add 1 867
+	Add 1 868
+	Add 1 869
+	Add 1 870
+	Add 1 871
+	Add 1 872
+	Add 1 873
+	Add 1 874
+	Add 1 875
+	Add 1 876
+	Add 1 877
+	Add 1 878
+	Add 1 879
+	Add 1 880
+	Add 1 881
+	Add 1 882
+	Add 1 883
+	Add 1 884
+	Add 1 885
+	Add 1 886
+	Add 1 887
+	Add 1 888
+	Add 1 889
+	Add 1 890
+	Add 1 891
+	Add 1 892
+	Add 1 893
+	Add 1 894
+	Add 1 895
+	Add 1 896
+	Add 1 897
+	Add 1 898
+	Add 1 899
+
+}
+
+
+DefineShortcut CashCheat
+DefaultKey Ctrl C
+Category Cheat
+{
+	Money
+}
+
+DefineShortcut TrapCheat
+DefaultKey Ctrl T
+Category Cheat
+{
+	give 17200
+	give 17201
+	give 17203
+	give 17204
+	give 17205
+	give 17206
+	give 17207
+	give 17208
+	give 17209
+	give 17210
+	give 17212
+	give 17213
+	give 17214
+	give 17215
+	give 17216
+	give 17217
+	give 17218
+	give 17219
+	give 17220
+	give 17221
+	give 17222
+	give 17223
+	give 17224
+	give 17225
+	give 17226
+	give 17227
+	give 17228
+	give 17229
+	give 17230
+	give 17231
+	give 17232
+	give 17233
+	give 17234
+	give 17235
+
+	give 17100
+	give 17101
+	give 17103
+	give 17104
+}
+
+DefineShortcut GlobalMadness
+DefaultKey Ctrl M
+Category Cheat
+{
+	SetGlobalMadness 1
+}
+
+DefineShortcut GlobalSanity
+DefaultKey Ctrl N
+Category Cheat
+{
+	SetGlobalMadness 0
+}
+
+DefineShortcut ArmyOfDarkness
+DefaultKey Ctrl A
+Category Cheat
+{
+	df_FullyTrainedHenchmen 1
+	add 1 100
+	add 1 101
+	add 1 102
+	add 1 103
+	add 1 104
+	add 1 105
+	add 1 106
+	add 1 107
+	add 1 108
+	add 1 109
+	add 1 110
+	add 1 111
+	add 1 112
+
+	add 1 500
+	add 1 501
+	add 1 502
+	add 1 503
+	add 1 504
+	add 1 505
+	add 1 507
+	add 1 508
+	add 1 509
+	add 1 510
+	add 1 511
+}
+
+DefineShortcut AirStrike
+DefaultKey Ctrl A
+Category Cheat
+{
+	ExecuteShortcut Explosion
+}
+
+DefineShortcut ObjectsCheat
+DefaultKey Ctrl O
+Category Cheat
+{
+	ExecuteShortcut GiveAllObjects
+}
+
+DefineShortcut GodCheat
+DefaultKey Ctrl I
+Category Cheat
+{
+	df_addinstant 1
+	df_buildinstant 1
+	df_buildinstantobjects 1
+	df_power 0
+	DF_TweakMinionStats 1
+}
+
+DefineShortcut NoGodCheat
+DefaultKey Ctrl Alt I
+Category Cheat
+{
+	df_addinstant 0
+	df_buildinstant 0
+	df_buildinstantobjects 0
+	df_power 1
+	DF_TweakMinionStats 0
+}
+
+DefineShortcut MoreMA
+DefaultKey Ctrl Z
+Category Cheat
+{
+	add 5 111
+}
+
+DefineShortcut MoreMS
+DefaultKey Ctrl X
+Category Cheat
+{
+	add 5 101
+}
+
+DefineShortcut MoreWK
+DefaultKey Ctrl W
+Category Cheat
+{
+	add 1 100
+}
+
+DefineShortcut MoreVT
+DefaultKey Ctrl Alt W
+Category Cheat
+{
+	add 1 102
+}
+
+DefineShortcut MoreTC
+DefaultKey Alt W
+Category Cheat
+{
+	add 1 103
+}
+
+
+DefineShortcut MoreFK
+DefaultKey Ctrl Pad .
+Category Cheat
+{
+	add 1 960 1508
+}
+
+DefineShortcut AgentsGoHome
+DefaultKey Ctrl Pad 0
+Category Cheat
+{
+	DF_AgentsGoHome 1
+}
+
+DefineShortcut AgentsDontGoHome
+DefaultKey Alt Pad 0
+Category Cheat
+{
+	DF_AgentsGoHome 0
+}
+
+DefineShortcut SuperAgentA
+DefaultKey Ctrl Pad 1
+Category Cheat
+{
+	add 1 950
+}
+
+DefineShortcut SuperAgentB
+DefaultKey Ctrl Pad 2
+Category Cheat
+{
+	add 1 951
+}
+
+DefineShortcut SuperAgentC
+DefaultKey Ctrl Pad 3
+Category Cheat
+{
+	add 1 952
+}
+
+DefineShortcut SuperAgentD
+DefaultKey Ctrl Pad 4
+Category Cheat
+{
+	add 1 953
+}
+
+DefineShortcut SuperAgentE
+DefaultKey Ctrl Pad 5
+Category Cheat
+{
+	add 1 954
+}
+
+DefineShortcut AgentA
+DefaultKey Ctrl Pad 6
+Category Cheat
+{
+	add 5 768
+}
+
+DefineShortcut AgentB
+DefaultKey Ctrl Pad 7
+Category Cheat
+{
+	add 5 787
+}
+
+DefineShortcut AgentC
+DefaultKey Ctrl Pad 8
+Category Cheat
+{
+	add 5 793
+}
+
+DefineShortcut AgentD
+DefaultKey Ctrl Pad 9
+Category Cheat
+{
+	add 5 813
+}
+
+DefineShortcut ATS
+DefaultKey Ctrl U
+Category Cheat
+{
+	DF_AlwaysTripSensors 1
+}
+
+DefineShortcut NoATS
+DefaultKey Ctrl Alt U
+Category Cheat
+{
+	DF_AlwaysTripSensors 0
+}
+
